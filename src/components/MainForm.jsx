@@ -140,10 +140,7 @@ export default function MainForm() {
 
   return (
     <main className="xs:max-w-5xl xs:min-h-[37.5rem] xs:bg-white xs:p-4 rounded-2xl xs:shadow-lg flex flex-col xs:flex-row">
-      <div
-        className="xs:rounded-lg py-8 px-10 flex flex-col relative bg-[url('/bg-sidebar-mobile.svg/')] xs:bg-[url('/bg-sidebar-desktop.svg/')] bg-no-repeat bg-cover bg-center min-h-[175px] xs:min-h-0"
-        // style={bgImageDesktop}
-      >
+      <div className="xs:rounded-lg py-8 px-10 flex flex-col relative bg-[url('/multistep-form/bg-sidebar-mobile.svg/')] xs:bg-[url('/multistep-form/bg-sidebar-desktop.svg/')] bg-no-repeat bg-cover bg-center min-h-[175px] xs:min-h-0">
         <AnimatePresence>
           <motion.ul
             className="flex justify-center xs:flex-col gap-3"
@@ -355,9 +352,7 @@ export default function MainForm() {
                 className="h-full"
                 {...slideAnimation("right")}
               >
-                <Result
-                personalInfo={personalInfo}
-                />
+                <Result personalInfo={personalInfo} />
               </motion.section>
             </motion.div>
           </div>
