@@ -12,7 +12,7 @@ export default function Result({personalInfo}) {
         <h3 className="text-[#022959] font-bold text-2xl xs:text-4xl">
           Thank You {personalInfo.name}!
         </h3>
-        <p className="text-[#9699AA] text-base">
+        <p className="text-[#9699AA] text-base max-w-md">
           Thanks for confirming your subscription! We hope you have fun using
           our platform. If you ever need support, please feel free to email us
           at support@loremgaming.com.
